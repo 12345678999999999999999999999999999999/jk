@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Mono+One&family=Unbounded:wght@200..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f7f7fc;
+    /* background: linear-gradient(blue, red,green); */
+    /* background: rgb(2,0,36); */
+/* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+    font-family: "Unbounded", sans-serif;
+    font-optical-sizing: auto;
+    color: rgb(19, 82, 97);
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-weight: 600;
+    text-align: center;
+    margin: 100px auto 50px;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+    height: 80px;
+    background-color: #7f1c1c;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 10px rgba(97, 120, 121, 0.413);
+}
+form input {
+    flex: 1;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
+
+::placeholder{
+    color: rgba(255, 255, 255, 0.432);
+    font-weight: 600;
+
+}
+
+form button, #show-more-btn{
+    padding: 0 40px;
+    height: 100%;
+    background-color: rgb(255, 0, 102);
+    border: 0;
+    outline: 0;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: 300ms;
+
+}
+form button{
+    border-radius: 0px 10px 10px 0px;
+}
+form button:hover,#show-more-btn:hover{
+    background-color:rgb(77, 59, 68);
+    transition: 300ms;
+}
+
+#show-more-btn{
+    /* margin-left: 45%; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#search-result img {
+    width: 500px;
+    height: 500px;
+    object-fit: fill;
+}
